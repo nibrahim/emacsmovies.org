@@ -11,19 +11,25 @@ This is a blog where I plan to post screencasts to teach people how to use the p
 
 The videos are recorded by me and then encoded and uploaded. I'm not doing any editing and so small mistakes will be left in there. I do plan to make a script and do a trial run before recording the final version so there's some "pre editing". 
 
-All the videos are recorded using [gtk-recordmydesktop](https://launchpad.net/gtk-recordmydesktop). It outputs the videos as a `.ogv` file. This is converted into a `.mpg` using 
+All the videos are recorded using `ffmpeg` with the following command line.
 
-	ffmpeg -i session.ogv -b 2240k session.mpg
+    ffmpeg -f x11grab -s 1280x800 -r 50 -i :0.0 -f alsa -i pulse -sameq ./screencast.mpg
+
+This captures the videos directly to the current directory transcoded into a `.mpg` The `-f` with `x11grab` is the video grabber input, `-s` the screen resolution, `-r` the frames per second, `-i` is the input source (in this case, display `:0.0`). The second `-f` is the audio grabber which is `alsa` and `-i` asks it to the the input from the `pulse` audio server. The `-sameq` option asks ffmpeg to record the video with the same input quality giving us almost lossless input. This is more convenient than manually specifying bit rates.
+
+Once this is done, I add my stock intro and outro videos using a simple
+
+	cat intro.mpg screencast.mpg outro.mpg > episode.mpg
 	
-The `2240k` is the bit rate and varies depending on the video but it's roughly in that range. The `.mpg` file is then sandwiched between a 25 second `intro.mpg` and `outro.mpg`. After that, it's transcoded into a `webm` filelike so.
+After this, the `mpg` is transcoded into a `webM` file using
 
-	ffmpeg -i complete.mpg -b 2240k complete.webm
+	ffmpeg -i episode.mpg -sameq episode.webm
 
 These files are uploaded to the internet archive in the [EmacsMovies collection](http://www.archive.org/details/EmacsMovies). I prefer using the archive to other video hosting websites because they allow you to download the original files directly. Also, their mission to preserve data for ever rather than to make money off user generated content appeals to me. 
 
 ## Software used
 
-I've already mentioned [gtk-recordmydesktop](https://launchpad.net/gtk-recordmydesktop) and [ffmpeg](http://ffmpeg.org) in the workflow. 
+I've already mentioned [ffmpeg](http://ffmpeg.org) in the workflow.
 	
 During the recording, I use my [showkeys](https://github.com/nibrahim/showkeys) application to display keystrokes on the side. I didn't use this instead of more mature programs like [key-mon](http://code.google.com/p/key-mon/) for a [number of reasons](http://nibrahim.net.in/2011/11/30/showkeys.html).
 
@@ -31,7 +37,7 @@ The blog is generated using [Octopress](http://octopress.org/) which is a set of
 
 I'm mentioning all this so that people can offer suggestions on how to improve the workflow. 
 
-On a side note, I'm a Python developer in my day job and I wanted to do this entire project without using Python at all. I managed it almost completely. The only thing that's in Python is the `recordmydesktop` app. I couldn't find a non python substitute. 
+On a side note, I'm a Python developer in my day job and I wanted to do this entire project without using Python at all and I was able to. 
 
 ## Long term plans
 
@@ -41,6 +47,8 @@ On a side note, I'm a Python developer in my day job and I wanted to do this ent
 </blockquote>
 
 It is definitely not possible to cover *all* of Emacs. My plan as of now is to start off with a few screencasts on basic editing and navigation. After this, a few on basic customisation. Then I plan to do emacs "applications" (e.g. dired, Gnus, org-mode) etc. I'll probably loosely structure it around the [emacs manual](http://www.gnu.org/software/emacs/manual/html_node/emacs/index.html). 
+
+I had a conversation with Zed Shaw about his [learn code the hard way](http://learncodethehardway.org/) series of books and video tutorials. He suggested that I supplement the screencasts with a book and I've started work on that too. Right now, my feeling is that each screencast will be the contents of one chapter condensed. I hope to keep all the screencasts under 15 minutes long each.
 
 I hope to do at least one a month. If you have any comments or suggestions, please email me - `noufal at emacsmovies.org`.
 
