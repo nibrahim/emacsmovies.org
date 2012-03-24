@@ -7,7 +7,7 @@ require "stringex"
 ssh_user       = "nkv@ssh.hcoop.net"
 ssh_port       = "22"
 document_root  = "~/public_html/emacsmovies/"
-rsync_delete   = true
+rsync_delete   = false
 deploy_default = "rsync"
 
 # This will be configured for you when you run config_deploy
