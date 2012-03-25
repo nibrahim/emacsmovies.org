@@ -12,3 +12,5 @@ It's the first one which I've done so feedback is welcome. Please email me at [n
 Enjoy!
 
 (P.S.: I will post the link to the relevant chapter in the companion book as soon as I'm done with it. A day or two at the most).
+
+**Update: ** The relevant chapter of the book is at [book/25_ch_terminology.html](http://emacsmovies.org/book/25_ch_terminology.html).
