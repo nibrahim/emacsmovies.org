@@ -11,7 +11,7 @@ I've included a link to a version of the video encoded using an h.264 video and 
 
 Finally, the delay in uploading was because the VM on which I was creating the screencasts for some reason started creating choppy video. It looked like it was because it wasn't powerful enough so I moved to a bare metal machine and the quality improved. 
 
-<iframe src="http://archive.org/embed/EmacsMovies/episode-navigation.webm width="640" height="480" frameborder="0"></iframe>
+<iframe src="http://archive.org/embed/EmacsMovies/episode-navigation.webm" width="640" height="480" frameborder="0"></iframe>
 
 I will update the book chapter and the keys summary tomorrow. 
 
