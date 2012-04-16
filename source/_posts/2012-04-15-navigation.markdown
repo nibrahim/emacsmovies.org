@@ -15,7 +15,8 @@ Finally, the delay in uploading was because the VM on which I was creating the s
 
 The H.264 version of the video for iOS devices is at <http://archive.org/download/EmacsMovies/episode-navigation.mkv>.
 
-I will update the book chapter and the keys summary tomorrow. 
+This is the [sample file](/assets/douglass.txt) which I used for the presentation.
+
 
 
 
