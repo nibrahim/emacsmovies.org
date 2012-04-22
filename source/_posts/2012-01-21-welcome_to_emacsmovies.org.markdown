@@ -11,19 +11,11 @@ This is a blog where I plan to post screencasts to teach people how to use the p
 
 The videos are recorded by me and then encoded and uploaded. I'm not doing any editing and so small mistakes will be left in there. I do plan to make a script and do a trial run before recording the final version so there's some "pre editing". 
 
-All the videos are recorded using `ffmpeg` with the following command line.
+I use this makefile to automate the entire process
 
-    ffmpeg -f x11grab -s 1280x800 -r 50 -i :0.0 -f alsa -i pulse -sameq ./screencast.mpg
+<script src="https://gist.github.com/2466292.js?file=gistfile1.mak"></script>
 
-This captures the videos directly to the current directory transcoded into a `.mpg` The `-f` with `x11grab` is the video grabber input, `-s` the screen resolution, `-r` the frames per second, `-i` is the input source (in this case, display `:0.0`). The second `-f` is the audio grabber which is `alsa` and `-i` asks it to the the input from the `pulse` audio server. The `-sameq` option asks ffmpeg to record the video with the same input quality giving us almost lossless input. This is more convenient than manually specifying bit rates.
-
-Once this is done, I add my stock intro and outro videos using a simple
-
-	cat intro.mpg screencast.mpg outro.mpg > episode.mpg
-	
-After this, the `mpg` is transcoded into a `webM` file using
-
-	ffmpeg -i episode.mpg -sameq episode.webm
+at the end, the `.mkv` and `.webm` videos are uploaded.
 
 These files are uploaded to the internet archive in the [EmacsMovies collection](http://www.archive.org/details/EmacsMovies). I prefer using the archive to other video hosting websites because they allow you to download the original files directly. Also, their mission to preserve data for ever rather than to make money off user generated content appeals to me. 
 
