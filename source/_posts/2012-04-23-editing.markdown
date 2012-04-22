@@ -12,7 +12,8 @@ Today's screencast is on editing. We discuss basic editing as well as a handful 
 
 The H.264 version of the video for iOS devices is at <http://archive.org/download/EmacsMovies/episode-editing.mkv>.
 
-Thanks!
+This is the [sample file](/assets/douglass2.txt) which I used for the presentation.
+
 
 
 
