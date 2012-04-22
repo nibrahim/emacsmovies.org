@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Editing"
+---
+
+Today's screencast is on editing. We discuss basic editing as well as a handful of commands that allow you to manipulate text efficiently. 
+
+
+
+
+<iframe src="http://archive.org/embed/EmacsMovies/episode-editing.webm" width="640" height="480" frameborder="0"></iframe>
+
+The H.264 version of the video for iOS devices is at <http://archive.org/download/EmacsMovies/episode-editing.mkv>.
+
+Thanks!
+
+
+
+
+
+
