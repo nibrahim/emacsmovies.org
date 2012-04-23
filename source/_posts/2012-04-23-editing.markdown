@@ -14,6 +14,9 @@ The H.264 version of the video for iOS devices is at <http://archive.org/downloa
 
 This is the [sample file](/assets/douglass2.txt) which I used for the presentation.
 
+*Update:* There are two more keys which I wanted to mention but missed. The first is `C-backspace` which deletes the previous word. It is like `backspace` but for the previous word. The other is the numeric prefix command which we saw in the navigation video. If you want to, for example, draw a line of `-` signs, you can type `M-40 -` and Emacs will repeat the insertion of `-` 40 times creating a line.
+
+
 
 
 
