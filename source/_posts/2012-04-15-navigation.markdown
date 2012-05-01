@@ -11,9 +11,9 @@ I've included a link to a version of the video encoded using an h.264 video and 
 
 Finally, the delay in uploading was because the VM on which I was creating the screencasts for some reason started creating choppy video. It looked like it was because it wasn't powerful enough so I moved to a bare metal machine and the quality improved. 
 
-<iframe src="http://archive.org/embed/EmacsMovies/episode-navigation.webm" width="640" height="480" frameborder="0"></iframe>
+<iframe src="http://archive.org/embed/EmacsMovies/02-episode-navigation.webm" width="640" height="480" frameborder="0"></iframe>
 
-The H.264 version of the video for iOS devices is at <http://archive.org/download/EmacsMovies/episode-navigation.mkv>.
+The H.264 version of the video for iOS devices is at <http://archive.org/download/EmacsMovies/02-episode-navigation.mkv>.
 
 This is the [sample file](/assets/douglass.txt) which I used for the presentation.
 
