@@ -15,7 +15,7 @@ I use this makefile to automate the entire process
 
 <script src="https://gist.github.com/2466292.js?file=gistfile1.mak"></script>
 
-at the end, the `.mkv` and `.webm` videos are uploaded.
+I use something like `make number=01 name=introduction` to create `01-episode-introduction.mkv` and `01-episode-introduction.webm`. The former is for ios devices and the latter for streaming. Make is surprisingly efficient for this since it can resume if things are interrupted and can automatically do things in parallel if a `-j` is passed. For example, it will transcode the `webm` and `mkv` files as two processes if I ask it to. Once that's done and I'm happy, I do a `make number=01 name=introduction upload` and the generated files are uploaded to the archives web servers using its implementation of the Amazon S3 API. This allows the whole flow to be non-interactive and smooth. I'm not much of a GUI man and prefer to have things run in a console.
 
 These files are uploaded to the internet archive in the [EmacsMovies collection](http://www.archive.org/details/EmacsMovies). I prefer using the archive to other video hosting websites because they allow you to download the original files directly. Also, their mission to preserve data for ever rather than to make money off user generated content appeals to me. 
 
