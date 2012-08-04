@@ -11,7 +11,7 @@ I do have an entire section dedicated to teaching Emacs lisp. This is a quick in
 
 <iframe src="http://archive.org/embed/EmacsMovies/08.1-episode-customisation-1.webm" width="640" height="480" frameborder="0"></iframe>
 
-The H.264 version of the video for iOS devices is at <http://archive.org/download/EmacsMovies/08.1-episode-customisation-1.webm>.
+The H.264 version of the video for iOS devices is at <http://archive.org/download/EmacsMovies/08.1-episode-customisation-1.mkv>.
 
 The main things which are covered are
 
