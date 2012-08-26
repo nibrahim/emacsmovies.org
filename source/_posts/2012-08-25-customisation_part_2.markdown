@@ -11,7 +11,7 @@ It's a little longer than usual. I was feeling tired so I didn't time myself lik
 
 <iframe src="http://archive.org/embed/EmacsMovies/08.2-episode-customisation-2.webm" width="640" height="480" frameborder="0"></iframe>
 
-The H.264 version of the video for iOS devices is at <http://archive.org/download/EmacsMovies/08.2-episode-customisation-2.mkv>.
+The H.264 version of the video for iOS devices is at <http://archive.org/download/EmacsMovies/08.2-episode-customisation-2.mkv>. This one is rather huge (302 MB or so). If it's prohibitive, you can visit the [archive details page](http://archive.org/details/EmacsMovies) which has links to an mp4 and an ogg version that are much smaller. 
 
 Here's a summary of what is covered along with a few extras.
 
