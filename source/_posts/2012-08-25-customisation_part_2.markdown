@@ -15,7 +15,7 @@ The H.264 version of the video for iOS devices is at <http://archive.org/downloa
 
 Here's a summary of what is covered along with a few extras.
 
-1. Locations of the init files - `.~/emacs`, `.~/emacs.el`, `.~/emacs.d/init.el`. 
+1. Locations of the init files - `~/.emacs`, `~/.emacs.el`, `~/.emacs.d/init.el`. 
 1. `set-foreground-color` and `set-background-color` to change foreground and background.
 1. The `visible-bell` variable to control the method in which alarms are displayed. Following are a few extras.    You can get information on these and any other variables using the the `describe-variable` function.
 
