@@ -31,6 +31,6 @@ Futher reading
 --------------
 1. [The emacs manual page on macros](http://www.gnu.org/software/emacs/manual/html_node/emacs/Keyboard-Macros.html#Keyboard-Macros)
 1. [The wiki](http://emacswiki.org) has [a page](http://emacswiki.org/emacs/KeyboardMacros) on macros that contains a lot of useful snippets and other little goodies that can improve your experience. 
-1. Xah Lee has a [page on macros](http://xahlee.blogspot.in/2012/07/emacs-key-macro-and-elisp-exercise.html) with some practical examples that he uses.
+1. Xah Lee has a [page on macros](http://ergoemacs.org/emacs/emacs_macro_example.html) with some practical examples that he uses.
 1. The [Emacs Rocks](http://emacsrocks.com/) series of screencasts has some nice examples of macro magic. 
 
