@@ -20,6 +20,12 @@ Topics covered
 1. The `C-x` `q` command to stop while playing back a macro so that you can enter some text or make minor variations. 
 1. The `C-x` `C-k` `n` to name the last macro and `C-x` `C-k` `b` to bind the last entered macro to a key. Finally, `insert-kbd-macro` to actually insert a macro as elisp into your current buffer so that you can save it for future use. 
 
+The `F3` and `F4` keys offer a convenient combination of the basic macro record and playback functions. 
+
+`F3` stands for `kmacro-start-macro-or-insert-counter`. When it is hit the first time, the effect is the same as `C-x` `(` (i.e. start recording a macro). While this is going on, if it is hit again, it will work like you hit `C-x` `C-k` `C-i` (i.e. insert the macro counter). 
+`F4` is bound to `kmacro-end-or-call-macro`. This will, if hit while a macro is being recorded, end the recording process. Here, it is similar to `C-x` `)`. If hit while a macro is not being recorded, it will work like `C-x` `e` and call the last recorded macro. 
+
+
 Macros are a little expansive so I took some liberties filtering out some of the features that I thought were not that useful. These are
 
 1. [Editing macros](http://www.gnu.org/software/emacs/manual/html_node/emacs/Edit-Keyboard-Macro.html#Edit-Keyboard-Macro).
