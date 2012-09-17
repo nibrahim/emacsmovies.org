@@ -21,6 +21,7 @@ Topics covered
 1. The `C-x` `C-k` `n` to name the last macro and `C-x` `C-k` `b` to bind the last entered macro to a key. Finally, `insert-kbd-macro` to actually insert a macro as elisp into your current buffer so that you can save it for future use. 
 
 Macros are a little expansive so I took some liberties filtering out some of the features that I thought were not that useful. These are
+
 1. [Editing macros](http://www.gnu.org/software/emacs/manual/html_node/emacs/Edit-Keyboard-Macro.html#Edit-Keyboard-Macro).
 1. [Interactively editing macros](http://www.gnu.org/software/emacs/manual/html_node/emacs/Keyboard-Macro-Step_002dEdit.html#Keyboard-Macro-Step_002dEdit)
 1. [The macro ring](http://www.gnu.org/software/emacs/manual/html_node/emacs/Keyboard-Macro-Ring.html#Keyboard-Macro-Ring) which contains all the macros created so far. 
@@ -29,6 +30,7 @@ I might do another screencast describing these but the manual page is explanator
 
 Futher reading
 --------------
+
 1. [The emacs manual page on macros](http://www.gnu.org/software/emacs/manual/html_node/emacs/Keyboard-Macros.html#Keyboard-Macros)
 1. [The wiki](http://emacswiki.org) has [a page](http://emacswiki.org/emacs/KeyboardMacros) on macros that contains a lot of useful snippets and other little goodies that can improve your experience. 
 1. Xah Lee has a [page on macros](http://ergoemacs.org/emacs/emacs_macro_example.html) with some practical examples that he uses.
