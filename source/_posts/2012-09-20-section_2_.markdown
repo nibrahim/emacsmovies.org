@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Section 2 "
+---
+
+The first section that describes how to use Emacs to get your daily work done is over. The second section is going to focus on "applications" that are written in Emacs. These are different from programming modes and other niceties that will be useful specifically programmers. Those are scheduled for section three. They also need to be sufficiently big and self contained to qualify. Libraries which allow hooking into external programs (e.g. D-BUS support) don't come in here. 
+
+I'm going to use this blog entry to create a dump of what I have in mind. Suggestions are welcome. 
+
+List of modes to discuss. These are not listed in any order. 
+
+1. dired - Directory editor inside Emacs. 
+1. org-mode - Outliner, PIM and authoring mode
+1. eshell - A shell implemented in elisp
+1. diary - Personal diary
+1. calc - RPN calculator
+1. ediff - arguable goes under section 3
+1. Gnus - News reader
+1. VMail - Mail reader
+1. Erc - IRC client
+1. BBDB - Rolodex style address book
+
+I think this covers most of the stuff that I use on a regular basis (and a few more which I'm going to have to learn). Any other suggestions are welcome. 
+
+Also, I have a new intro and outro sequence for this part which should be interested to atleast some of the people following this series. Stay tuned. 
