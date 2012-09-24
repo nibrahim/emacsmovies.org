@@ -14,11 +14,12 @@ List of modes to discuss. These are not listed in any order.
 1. eshell - A shell implemented in elisp
 1. diary - Personal diary
 1. calc - RPN calculator
-1. ediff - arguable goes under section 3
+1. ediff - Merge tool
 1. Gnus - News reader
 1. VMail - Mail reader
 1. Erc - IRC client
 1. BBDB - Rolodex style address book
+1. Info - Mode to read Info pages
 
 I think this covers most of the stuff that I use on a regular basis (and a few more which I'm going to have to learn). Any other suggestions are welcome. 
 
