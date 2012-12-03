@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Dired"
+date: "2012-12-04 01:20:51 +0530"
+---
+
+I've started "Season" 2 of the series with a screencast on [dired](http://www.gnu.org/s/emacs/manual/html_node/emacs/Dired.html). It's Emacs' "file browser" and can be used to manage files. Performing operations on a large number of them at once and also providing such facilities to other modes. 
+
+I apologise for the hiatus but I've been very busy in my real life. I expect more delays till the end of January but I'll do what I can. 
+
+<iframe src="http://archive.org/embed/EmacsMovies/11-episode-dired.webm" width="640" height="480" frameborder="0"></iframe>. 
+
+Other formats are available on the [Archive.org page](http://archive.org/details/EmacsMovies).
+
+Comments welcome.
+
+Keys mentioned
+--------------
+1. `C-x d` to start dired with a directory. `find-name-dired` and `find-dired` can be used to select different files for the initial dired buffer.
+2. `s` to toggle sorting order (by date or normal).
+3. `i` to insert a directory into the current dired buffer.
+4. `<` and `>` to navigate directories in the buffer. 
+5. `C-M-n` and `C-M-p` to navigate dirlines.
+6. `RET` to visit the current item in a new buffer. `o` does the same thing but does so after splitting the current window into two so that the dired buffer is still visible.
+7. `^` Goes one directory up. It's the opposite of `RET`. If the parent directory has a dired buffer visiting it, it will be reused. Otherwise, a new one will be created.
+8. `$` toggles the visibility of the file list under a dirline. `M-$` does so for all the dirlines in the current buffer. 
+9. `T` touches the current or all the marked files. `R` is to rename files. `S` to symblink. `Z` is to compress or decompress.
+10. `D` marks for deletion and `X` expunges.
+11. `m` marks files and `u` unmarks. `U` unmarks all files.
+12. `M-s a C-s` searches incrementally through all marked files.
+13. `C-t C-t` displays image thumbnails. `C-t i` displays a scaled version of the image in a new window.
+14. `% g` marks files based on whether they contain a provided regular expression. Other `%` commands are available under the *Regexp* menu. 
+15. `* /` marks all directories and `t` toggles marked/unmarked files. The *Mark* menu has other such commands to make marking easy.
+16. `+` creates new directories and `w` copies marked (or current) items into the kill ring.
+17. If you're using `gnus`, you can run `turn-on-gnus-dired-mode` and get keybindings like `C-c C-m C-a` to attach marked files into a new email and go to the composer. 
+
+Further reading
+---------------
+1. The [Dired manual page](http://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html) along with [Dired-X](http://www.gnu.org/software/emacs/manual/html_node/dired-x/index.html#Top) (which I might cover later in a future screencast).
+2. [Xah Lee's dired tutorial](http://ergoemacs.org/emacs/file_management.html). 
+
+
+
+
