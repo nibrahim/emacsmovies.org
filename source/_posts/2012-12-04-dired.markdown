@@ -33,6 +33,7 @@ Keys mentioned
 15. `* /` marks all directories and `t` toggles marked/unmarked files. The *Mark* menu has other such commands to make marking easy.
 16. `+` creates new directories and `w` copies marked (or current) items into the kill ring.
 17. If you're using `gnus`, you can run `turn-on-gnus-dired-mode` and get keybindings like `C-c C-m C-a` to attach marked files into a new email and go to the composer. 
+18. `C-x` `C-q` to enter wdired which makes the file names in the buffer editable. You can make changes and then hit `C-c` `C-c` to save them.
 
 Further reading
 ---------------
