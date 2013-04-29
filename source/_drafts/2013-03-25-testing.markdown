@@ -1,6 +1,0 @@
----
-layout: post
-title: "Testing"
-date: "2013-03-25 17:50:48 +0530"
----
-
