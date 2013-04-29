@@ -1,0 +1,45 @@
+---
+layout: post
+title: "Gnus part 1"
+date: "2013-04-29 21:48:48 +0530"
+---
+
+I've picked up something this time which I've always wanted to study properly -- [*Gnus*](http://gnus.org/). The Emacs news and email reader. This is going to be a multipart episode since Gnus is so big. I don't know how many exactly but as of now, I've got a 3 part thing planned. 
+
+Also, the hiatus was unexpected. Things should be smoother now.
+
+<iframe src="http://archive.org/embed/EmacsMovies/11-episode-dired.webm" width="640" height="480" frameborder="0"></iframe>. 
+
+Other formats are available on the [Archive.org page](http://archive.org/details/EmacsMovies).
+
+Comments welcome.
+
+Summary
+-------
+1. The `gnus-select-method` variable decides where to pick news from. 
+2. `M-x gnus` starts gnus. 
+3. `g` refreshes subsribed groups.
+4. `F` looks for new groups. 
+5. `^` takes you into the server buffer. 
+6. `RET` will do different things depending on where you are. On a group, it will show you articles in the group.
+7. `t` toggles topics in the Groups buffer. 
+8. `L` shows all groups (including ones with no unread articles). 
+9. `l` shows only groups with no unread articles.
+10. `c` catches up a group marking all articles as read. 
+11. `U` is used to subscribe to a group.
+12. Information on groups and articles in cached in the `.newsrc.eld` file which you shouldn't delete. 
+13. Gnus uses `.gnus` as a startup file.
+14. `gnus-secondary-select-methods` is the variable that controls sources other than the primary one mentioned in `gnus-select-method`. Mail sources usually come here. 
+15. The `mail-sources` variable specify where the mail backends should pick data up from. 
+16. The `nnmail-split-methods` function can be used to split mail depending on criteria like sender etc.
+
+Further reading
+---------------
+1. The [Gnus manual](http://gnus.org/manual.html).
+2. The [Gnus category on emacswiki](http://www.emacswiki.org/CategoryGnus) for lots of tips and tricks.
+
+Extras
+------
+1. The [recipe](http://code.activestate.com/recipes/578514-create-a-temporary-mailbox/?in=user-4173873) used to generate the mailbox.
+
+
