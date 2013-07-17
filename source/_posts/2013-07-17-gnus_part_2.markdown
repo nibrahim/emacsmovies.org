@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gnus part 2"
-date: "2013-07-17 19:50:22 +0530"
+date: "2013-07-17 19:55:41 +0530"
 ---
 
 This is the second part of the screencasts discussing Gnus. The general idea was to cover "reading" email and news articles but the screencast ended becoming 30 minutes long. I broke it down into two pieces so that it's more convenient to download.
