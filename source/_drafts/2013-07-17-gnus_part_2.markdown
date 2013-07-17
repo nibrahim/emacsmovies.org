@@ -1,0 +1,65 @@
+---
+layout: post
+title: "Gnus part 2"
+date: "2013-07-17 19:50:22 +0530"
+---
+
+This is the second part of the screencasts discussing Gnus. The general idea was to cover "reading" email and news articles but the screencast ended becoming 30 minutes long. I broke it down into two pieces so that it's more convenient to download.
+
+It discusses the Group buffer where you can see your groups and manage them, the Summary buffer where you can actually see the articles in the group and finally, the Article buffer where you can actually read the email.
+
+
+Part 1
+<iframe src="http://archive.org/embed/EmacsMovies/12.2-episode-gnus-2.1.webm" width="640" height="480" frameborder="0"></iframe>.
+
+Part 2
+<iframe src="http://archive.org/embed/EmacsMovies/12.2-episode-gnus-2.2.webm" width="640" height="480" frameborder="0"></iframe>. 
+
+Other formats are available on the [Archive.org page](http://archive.org/details/EmacsMovies).
+
+The keys that are covered in these two episodes are as follows.
+
+Summary
+-------
+In the Groups buffer:
+0. `F` - Checks for new newgroups
+1. `t` - toggle topics
+2. `g` - Refresh
+3. `c` - catchup
+4. `n` - Jump to next group with unread articles
+5. `.` - Jump to first group with unread articles
+6. `U` - Subscribe
+7. `S k` - Kill group
+8. `#` - Mark group
+9. `L` - Show all Groups
+10. `l` - Shows groups with unread articles
+11.  `G c` - customise group parameters
+12.  `F` - Search for new newsgroups
+13.  `b` - Cleanup groups
+14.  `RET` - Enter group
+
+Summary buffer:
+0.  `RET` - Read article (and scroll by one line)
+1.  `SPACE` - Scroll down by one page
+2.  `Backspace` - Scroll up by one page
+3.  `s` - Incremental Search   
+4.  `h` - Move between summary and article buffers
+5.  `B Backspace` - Delete article
+6.  `B m` - Move
+7.  `B r` - Respool
+8.  `B t` - Trace
+9.  `#` - Process mark
+10.  `MPr` - Mark region
+11.  `MPg` - unmark region
+12.  `MPR` - Mark articles matching regexp
+13.  `MPG` - Unmark articles matching regexp
+14.  `!` - Tick article
+15.  `M-u` - Remove all marks
+16.  `/` - Narrow based on criteria (/ . removes narrowing)
+17.  `C-M-t` - Toggle threading
+18.  `T-o` - Jump to thread parent
+19.  `K-b` - Display MIME buttons
+20.  `M-t` - Toggle MIME button display (permanent)
+21.  `q` - Exit summary buffer
+
+Thanks for your patience and continued support.
