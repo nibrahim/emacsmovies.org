@@ -22,7 +22,7 @@ The keys that are covered in these two episodes are as follows.
 Summary
 -------
 In the Groups buffer:
-
+date: "2013-07-17 19:56:28 +0530"
 0. `F` - Checks for new newgroups
 1. `t` - toggle topics
 2. `g` - Refresh
@@ -37,7 +37,6 @@ In the Groups buffer:
 11.  `G c` - customise group parameters
 12.  `F` - Search for new newsgroups
 13.  `b` - Cleanup groups
-date: "2013-07-17 19:54:31 +0530"
 
 Summary buffer:
 
