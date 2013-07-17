@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gnus part 2"
-date: "2013-07-17 19:55:41 +0530"
+date: "2013-07-17 19:50:22 +0530"
 ---
 
 This is the second part of the screencasts discussing Gnus. The general idea was to cover "reading" email and news articles but the screencast ended becoming 30 minutes long. I broke it down into two pieces so that it's more convenient to download.
@@ -22,7 +22,7 @@ The keys that are covered in these two episodes are as follows.
 Summary
 -------
 In the Groups buffer:
-date: "2013-07-17 19:56:28 +0530"
+
 0. `F` - Checks for new newgroups
 1. `t` - toggle topics
 2. `g` - Refresh
@@ -37,6 +37,7 @@ date: "2013-07-17 19:56:28 +0530"
 11.  `G c` - customise group parameters
 12.  `F` - Search for new newsgroups
 13.  `b` - Cleanup groups
+14.  `RET` - Enter group
 
 Summary buffer:
 
