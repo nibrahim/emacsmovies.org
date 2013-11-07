@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Gnus part 3"
+date: "2013-11-07 14:34:01 +0530"
+---
+
+This is the third installment of the Gnus series where we discuss [scoring](http://www.gnus.org/manual/gnus_255.html#SEC255). It's a little complex and this screencast is just an overview of the possibilities rather than an in depth tutorial.
+
+<iframe src="http://archive.org/embed/EmacsMovies/12.3-episode-gnus-3.webm" width="640" height="480" frameborder="0"></iframe>.
+
+Other formats are available on the [Archive.org page](http://archive.org/details/EmacsMovies).
+
+Summary
+-------
+0. `V S` - View score of current article
+1. `V s` - Set score of current article (requires prefix argument)
+2. `V R` - Re compute score for current article
+3. `V t` - Show score rules for current article
+4. `V C` - Customise score rules for current group.
+5. `L` - Create new rule to lower scores (based on current article)
+6. `I` - Create new rule to increase scores (based on current article)
+7. `gnus-use-adaptive-scoring` - Change this to `t` to use adaptive scoring.
+8. `gnus-default-adaptive-score-alist` - Specify scoring rules in here.
+9. `gnus-thread-sort-functions` - List of functions to sort threads in a group. Primary sort key should be the last function. Refer documentation for details.
+10. `gnus-article-sort-functions` - Same as above. In effect when threading is disabled.
+11. `gnus-thread-sort-by-*` - Various pre defined functions which can be put in the `gnus-thread-sort-functions` list. 
+12. `gnus-article-sort-by-*` - Various pre defined functions which can be put in the `gnus-article-sort-functions` list.
+
+
