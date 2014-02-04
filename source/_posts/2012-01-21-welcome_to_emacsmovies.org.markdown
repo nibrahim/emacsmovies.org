@@ -23,7 +23,7 @@ These files are uploaded to the internet archive in the [EmacsMovies collection]
 
 I've already mentioned [ffmpeg](http://ffmpeg.org) in the workflow.
 	
-During the recording, I use my [showkeys](https://github.com/nibrahim/showkeys) application to display keystrokes on the side. I didn't use this instead of more mature programs like [key-mon](http://code.google.com/p/key-mon/) for a [number of reasons](http://nibrahim.net.in/2011/11/30/showkeys.html).
+During the recording, I use my [showkeys](https://github.com/nibrahim/showkeys) application to display keystrokes on the side. I used this instead of more mature programs like [key-mon](http://code.google.com/p/key-mon/) for a [number of reasons](http://nibrahim.net.in/2011/11/30/showkeys.html).
 
 The blog is generated using [Octopress](http://octopress.org/) which is a set of plugins and spiffy templates for the [jekyll](http://jekyllrb.com/) static blog generator. I use my own emacs mode [hyde.el](https://github.com/nibrahim/Hyde) to maintain the blog. It is maintained on github at <https://github.com/nibrahim/emacsmovies.org>. The emacsmovies.org website is hosted currently on [the Internet hosting cooperative](http://hcoop.net/). 
 
