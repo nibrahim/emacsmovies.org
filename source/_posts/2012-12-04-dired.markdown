@@ -8,9 +8,9 @@ I've started "Season" 2 of the series with a screencast on [dired](http://www.gn
 
 I apologise for the hiatus but I've been very busy in my real life. I expect more delays till the end of January but I'll do what I can. 
 
-<iframe src="http://archive.org/embed/EmacsMovies/11-episode-dired.webm" width="640" height="480" frameborder="0"></iframe>. 
+<iframe src="https://archive.org/embed/EmacsMovies/11-episode-dired.webm" width="640" height="480" frameborder="0"></iframe>. 
 
-Other formats are available on the [Archive.org page](http://archive.org/details/EmacsMovies).
+Other formats are available on the [Archive.org page](https://archive.org/details/EmacsMovies).
 
 Comments welcome.
 

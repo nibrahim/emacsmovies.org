@@ -8,9 +8,9 @@ I've picked up something this time which I've always wanted to study properly --
 
 Also, the hiatus was unexpected. Things should be smoother now.
 
-<iframe src="http://archive.org/embed/EmacsMovies/12.1-episode-gnus-1.webm" width="640" height="480" frameborder="0"></iframe>. 
+<iframe src="https://archive.org/embed/EmacsMovies/12.1-episode-gnus-1.webm" width="640" height="480" frameborder="0"></iframe>. 
 
-Other formats are available on the [Archive.org page](http://archive.org/details/EmacsMovies).
+Other formats are available on the [Archive.org page](https://archive.org/details/EmacsMovies).
 
 Comments welcome.
 

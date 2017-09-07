@@ -9,9 +9,9 @@ This episode covers a little more elisp focusing on common things that people tw
 
 It's a little longer than usual. I was feeling tired so I didn't time myself like I usually do. Also, due to some screw up with my mic jack, there's a crackling sound throughout the recording. It's not *that* bad but it would be nice have gotten it without that. You can also hear me coughing once or twice. My apologies.
 
-<iframe src="http://archive.org/embed/EmacsMovies/08.2-episode-customisation-2.webm" width="640" height="480" frameborder="0"></iframe>
+<iframe src="https://archive.org/embed/EmacsMovies/08.2-episode-customisation-2.webm" width="640" height="480" frameborder="0"></iframe>
 
-The H.264 version of the video for iOS devices is at <http://archive.org/download/EmacsMovies/08.2-episode-customisation-2.mkv>. This one is rather huge (302 MB or so). If it's prohibitive, you can visit the [archive details page](http://archive.org/details/EmacsMovies) which has links to an mp4 and an ogg version that are much smaller. 
+The H.264 version of the video for iOS devices is at <https://archive.org/download/EmacsMovies/08.2-episode-customisation-2.mkv>. This one is rather huge (302 MB or so). If it's prohibitive, you can visit the [archive details page](https://archive.org/details/EmacsMovies) which has links to an mp4 and an ogg version that are much smaller. 
 
 Here's a summary of what is covered along with a few extras.
 

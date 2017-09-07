@@ -7,9 +7,9 @@ A little late but it's finally up. We're discussing keyboard macros in this epis
 
 [Keyboard macros](http://www.gnu.org/software/emacs/manual/html_node/emacs/Keyboard-Macros.html#Keyboard-Macros) are Emacs' way of recording and playing back a series of keys. It's a useful feature that many people don't sufficiently use. The excellent [Emacs Rocks](http://emacsrocks.com/) series of screencasts has [some episodes](http://emacsrocks.com/e02.html) on clever macro usage to reduce the number of keys needed to perform some kind of task. 
 
-<iframe src="http://archive.org/embed/EmacsMovies/10-episode-keyboard_macros.webm" width="640" height="480" frameborder="0"></iframe>
+<iframe src="https://archive.org/embed/EmacsMovies/10-episode-keyboard_macros.webm" width="640" height="480" frameborder="0"></iframe>
 
-The H.264 version of the video for iOS devices is at <http://archive.org/download/EmacsMovies/10-episode-keyboard_macros.mkv>.
+The H.264 version of the video for iOS devices is at <https://archive.org/download/EmacsMovies/10-episode-keyboard_macros.mkv>.
 
 Topics covered
 --------------

@@ -10,12 +10,12 @@ It discusses the Group buffer where you can see your groups and manage them, the
 
 
 Part 1
-<iframe src="http://archive.org/embed/EmacsMovies/12.2-episode-gnus-2.1.webm" width="640" height="480" frameborder="0"></iframe>.
+<iframe src="https://archive.org/embed/EmacsMovies/12.2-episode-gnus-2.1.webm" width="640" height="480" frameborder="0"></iframe>.
 
 Part 2
-<iframe src="http://archive.org/embed/EmacsMovies/12.2-episode-gnus-2.2.webm" width="640" height="480" frameborder="0"></iframe>. 
+<iframe src="https://archive.org/embed/EmacsMovies/12.2-episode-gnus-2.2.webm" width="640" height="480" frameborder="0"></iframe>. 
 
-Other formats are available on the [Archive.org page](http://archive.org/details/EmacsMovies).
+Other formats are available on the [Archive.org page](https://archive.org/details/EmacsMovies).
 
 The keys that are covered in these two episodes are as follows.
 

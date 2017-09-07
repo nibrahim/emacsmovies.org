@@ -6,9 +6,9 @@ date: "2013-11-07 14:34:01 +0530"
 
 This is the third installment of the Gnus series where we discuss [scoring](http://www.gnus.org/manual/gnus_255.html#SEC255). It's a little complex and this screencast is just an overview of the possibilities rather than an in depth tutorial.
 
-<iframe src="http://archive.org/embed/EmacsMovies/12.3-episode-gnus-3.webm" width="640" height="480" frameborder="0"></iframe>.
+<iframe src="https://archive.org/embed/EmacsMovies/12.3-episode-gnus-3.webm" width="640" height="480" frameborder="0"></iframe>.
 
-Other formats are available on the [Archive.org page](http://archive.org/details/EmacsMovies).
+Other formats are available on the [Archive.org page](https://archive.org/details/EmacsMovies).
 
 Summary
 -------

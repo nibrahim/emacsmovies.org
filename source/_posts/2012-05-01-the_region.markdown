@@ -7,9 +7,9 @@ This post discusses the `region`, the `point`, the `mark` and related matters. I
 
 The video sizes are unnaturally huge this time. I'll probably scale them down from now. 
 
-<iframe src="http://archive.org/embed/EmacsMovies/04-episode-region.webm" width="640" height="480" frameborder="0"></iframe>
+<iframe src="https://archive.org/embed/EmacsMovies/04-episode-region.webm" width="640" height="480" frameborder="0"></iframe>
 
-The H.264 version of the video for iOS devices is at <http://archive.org/download/EmacsMovies/04-episode-region.mkv>.
+The H.264 version of the video for iOS devices is at <https://archive.org/download/EmacsMovies/04-episode-region.mkv>.
 
 Comments and feedback are, as always, welcome. 
 
